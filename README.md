@@ -1,7 +1,7 @@
-💳 Credit Card Fraud Detection
+Credit Card Fraud Detection
 This project focuses on detecting fraudulent credit card transactions using a combination of classification models and anomaly detection techniques. It includes data preprocessing, visualization, and evaluation of multiple machine learning algorithms.
 
-📁 Notebooks
+Notebooks
 1. dataset preprocessing and visualization.ipynb
 Cleans and prepares the credit card dataset
 Visualizes class imbalance and feature distributions
@@ -48,19 +48,16 @@ Logistic Regression
 
 Isolation Forest (unsupervised anomaly detection)
 
-🧠 Key Concepts
+Key Concepts
 Class Imbalance Handling: Focus on improving recall for the minority (fraudulent) class
 
 Model Comparison: Evaluate both performance and interpretability
 
 Anomaly Detection: Use Isolation Forest to identify rare and suspicious transactions
 
-🛠️ Dependencies
+Dependencies
 Make sure you have the following Python libraries installed:
 
-bash
-Copy
-Edit
 pandas
 numpy
 matplotlib
@@ -71,11 +68,10 @@ keras
 tensorflow
 You can install them using:
 
-bash
-Copy
-Edit
+
 pip install pandas numpy matplotlib seaborn scikit-learn xgboost keras tensorflow
-🚀 How to Run
+
+How to Run
 Open the notebooks in order:
 
 Preprocessing & Visualization
@@ -86,7 +82,7 @@ Anomaly Detection
 
 Run each cell to train models and evaluate results.
 
-✅ Project Goals
+Project Goals
 Detect fraudulent transactions with high precision and recall
 
 Compare traditional classifiers with anomaly detection techniques
